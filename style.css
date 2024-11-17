@@ -1,0 +1,536 @@
+body{
+    background-color: #021334;
+   
+}
+.bod{
+  background-color: #021334;
+  background-image: url(img/back.jpg);
+
+ 
+}
+.back{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 0 3000px rgba(168, 168, 168, 0.192);
+  border: 1px solid rgba(27, 27, 27, 0.568);
+}
+.ocno{
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 0 3000px rgba(85, 85, 85, 0.192);
+  border: 1px solid rgba(27, 27, 27, 0.568);
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  left: 37%;
+  top: 25%;
+  border-radius: 50px;
+  
+ 
+}
+.ocno1{
+  backdrop-filter: blur(10px);
+  box-shadow: inset 0 0 0 3000px rgba(85, 85, 85, 0.192);
+  border: 1px solid rgba(27, 27, 27, 0.568);
+  width: 25%;
+  height: 55%;
+  position: absolute;
+  left: 37%;
+  top: 22%;
+  border-radius: 50px;
+  
+ 
+}
+.gaga{
+  font-size: 50px;
+  color: white;
+ position: relative;
+ top: 50px;
+}
+.forms{
+  position: relative;
+  top: 100px;
+}
+.email{
+  
+  width: 60%;
+  height: 45px;
+  border-radius: 20px;
+}
+.password{
+  width: 60%;
+  height: 45px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.voyti{
+  width: 50%;
+  height: 45px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+background-color: #b08bf8;
+}
+.voyti:active{
+  width: 40%;
+  height: 35px;
+}
+.passv{
+  position: relative;
+  top: 5px;
+  
+  
+}
+.line{
+  position: relative;
+  top: 150px;
+}
+.line1{
+  position: relative;
+  top: 130px;
+}
+.vopros{
+  position: relative;
+  top: 170px;
+}
+.vopros1{
+  position: relative;
+  top: 150px;
+}
+
+header{
+    background-image: url(img/1672272396_kalix-club-p-fon-gacha-les-instagram-19.jpg);
+   background-size: cover;
+   border-end-end-radius: 100px;
+   border-end-start-radius: 100px;
+    width: 100%;
+    height: 70vh;
+    margin: 0;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 16px 51px 20px  #000000;
+    
+}
+.headd{
+    position: relative;
+    top: 550px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    backdrop-filter: blur(45px);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    animation: example 2s;
+    
+    
+}
+.FotoCard{
+  width: 100%;
+  border-top-left-radius: 46px;
+  border-top-right-radius: 46px;
+
+}
+.AllJanar{
+  width: 100%;
+  height: 1750px;
+  margin-top: 70px;
+  background-image: url(img/fon.jpg) ;
+  background-size: cover ;
+  border-radius: 50px;
+  
+}
+.magaz{
+  font-size: 40px;
+  color: white;
+  backdrop-filter: contrast(70%);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  height: 70px;
+}
+.magaz1{
+  font-size: 50px;
+  color: white;
+  font-family: helle;
+}
+@font-face {
+  font-family: gaga;
+  src: url(fonts/ofont.ru_Wizland.ttf);
+}
+.gaha{
+  font-family: gaga;
+}
+.janar{
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  backdrop-filter: contrast(70%);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+ 
+}
+.perechJanar{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  display: grid;
+   grid-template-columns: repeat(3, 1fr); grid-gap: 50px;
+   
+  
+}
+@keyframes zaebz{
+  0%{transform: translate(-500px);}
+  
+}
+@keyframes zaebc{
+  0%{transform: translate(500px);}
+}
+html{
+  scroll-timeline: anim block;
+}
+.zaebz{
+  backdrop-filter: blur(20px);
+    border-radius: 50px;
+    width: 300px;
+    height: 460px;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    box-shadow: 27px -16px 30px 10px  #000000;
+    background-image: url(img/1655799484_1-furman-top-p-nochnoe-nebo-tekstura-krasivo-1.jpg) ; 
+    animation: zaebz 2s;
+    font-family: helle;
+}
+.zaebz :hover{
+  transform: scale(3);
+}
+.zaebx{
+  backdrop-filter: blur(20px);
+    border-radius: 50px;
+    width: 300px;
+    height: 460px;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    box-shadow: 27px -16px 30px 10px  #000000;
+    animation: view 5s;
+    background-image: url(img/1655799484_1-furman-top-p-nochnoe-nebo-tekstura-krasivo-1.jpg) ; 
+    font-family: helle;
+}
+.zaebc{
+  backdrop-filter: blur(20px);
+    border-radius: 50px;
+    width: 300px;
+    height: 460px;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    box-shadow: 27px -16px 30px 10px  #000000;
+    animation: zaebc 2s;
+    background-image: url(img/1655799484_1-furman-top-p-nochnoe-nebo-tekstura-krasivo-1.jpg) ; 
+    font-family: helle;
+}
+
+hr{
+  position: relative;
+  top: -12px;
+}
+.lup{
+  position: relative;
+  left: -22px;
+}
+.hrr{
+  position: relative;
+  left: -40px;
+  width: 298px;
+}
+li{
+  text-align: left;
+  font-size: 17 px;
+  margin-left: 10px;
+}
+.bbb{
+  text-align: center;
+  position: relative;
+  top: -15px;
+  font-size: 25px;
+  left: -15px;
+}
+b{
+  text-align: center;
+  position: relative;
+  top: -15px;
+  
+  font-size: 25px;
+  
+}
+.head{
+   margin: 30px;
+    font-size: 30px;
+    position: relative;
+    top: -20px;
+    right: -50px;
+   
+}
+
+@keyframes example {
+  0% { transform: translate(0px, -200px)}
+  
+}
+
+@keyframes exampli {
+    0% { transform: translate(0px, -600px)}
+    
+  }
+.glavText{
+    backdrop-filter: blur(20px);
+    border-radius: 50px;
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    animation: exampli 2s;
+  
+        
+}
+  .boob{
+    text-align: center;
+        
+        font-size: 50px;
+        font-family: helle;
+        
+        
+  }
+  .boob2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    font-family: helle;
+    font-size: 25px;
+}
+  .vhod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+  }
+  .infoDownHead{
+    display: flex;
+   text-align: center;
+   font-size: 25px;
+   backdrop-filter: contrast(60%); 
+   border-radius: 10px;
+   position: relative;
+   top: -550px;
+   animation: view 5s;
+
+  }
+  @keyframes position {
+    0% {transform:  translate(200px,0px) }
+    
+  }
+  @keyframes view{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+
+  }
+  .Vedmac{
+    position: relative;
+    left: -500px;
+    top: 515px;
+    animation: view 5s;
+
+  }
+ .gta{
+  position: relative;
+  left: 687px;
+  top:  -427px;
+  
+  animation: view 5s;
+ 
+ }
+ 
+  .InfoDownText{
+    margin-left: 35px;
+    
+  }
+  .Gay{
+    font-size: 35px;
+    
+  }
+  .buttonLog{
+    width: 90px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #b08bf8;
+    position: relative;
+   
+    cursor: pointer;
+    
+  }
+  
+  .headLogo{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: -500px;
+    top: -15px;
+  }
+  @font-face {
+    font-family: helle;
+    src: url(fonts/TikTokSans-VF-v3.3.ttf);
+  }
+.center{
+  
+  background-image: url(img/fon2.png);
+  
+  width: 90%;
+  height: 700px;
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 27px -16px 51px 20px  #000000;
+
+}
+.FullMagaz{
+  position: relative;
+  top: 150px;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+ 
+  cursor: pointer;
+  background-color: rgb(155, 155, 155);
+  border-width: 1px;
+  
+}
+.center1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+
+
+.CardTovar{
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  width: 300px;
+  height: 350px;
+  border-style: solid;
+ 
+  border-width: 2px;
+  text-align: center;
+  position: relative;
+top: 80px;
+margin-left: 30px;
+margin-right: 30px;
+  box-shadow: -27px -16px 30px 10px  rgba(0, 0, 0, 0.678);
+  border-color: white;
+  background: linear-gradient(to bottom right, rgb(17, 17, 109),rgba(102, 120, 129, 0.699));
+}
+.cena{
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+}
+.knopka{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+  background-color: blanchedalmond;
+  border-width: 1px;
+  }
+.GameName{
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+  font-family: helle;
+ 
+}
+.ImgClass{
+  width: 100%;
+  height: 175px;
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+}
+
+footer {
+  background-color: #0A0F1C;
+  color: #FFFFFF;
+  padding: 20px;
+  text-align: center;
+position: relative;
+left: -10px;
+width: 1825px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.footer-column h4 {
+  color: #66CCFF;
+}
+
+footer .footer-column p,
+footer .footer-column a {
+  color: #FFFFFF;
+}
+
+.footer-column a {
+  color: #66CCFF;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+footer hr {
+  border-color: #66CCFF;
+  margin: 20px 0;
+}
+
+.footer-copyright {
+  color: #888888;
+}
